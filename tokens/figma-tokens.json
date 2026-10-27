@@ -1,0 +1,6 @@
+{
+  "$description": "Zariran Figma Tokens. Import via Tokens Studio for Figma.",
+  "$metadata": {
+    "tokenSetOrder": ["primitives", "semantic", "components", "themes/light", "themes/dark"]
+  }
+}

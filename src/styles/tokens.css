@@ -1,0 +1,154 @@
+/* Zariran tokens -> CSS variables (Tailwind v3 compatible). */
+
+:root {
+  /* Brand primitives */
+  --color-lapis-50: #eef2ff;  --color-lapis-100: #dde4fb;
+  --color-lapis-200: #b9c6f4; --color-lapis-300: #8ba1e6;
+  --color-lapis-400: #5d76cf; --color-lapis-500: #3a53b3;
+  --color-lapis-600: #2a3f95; --color-lapis-700: #1f3078;
+  --color-lapis-800: #17245c; --color-lapis-900: #111b45;
+  --color-lapis-950: #0a112b;
+
+  --color-turquoise-50: #effcfa;  --color-turquoise-100: #d6f7f1;
+  --color-turquoise-200: #aeece3; --color-turquoise-300: #79dad0;
+  --color-turquoise-400: #43bfb4; --color-turquoise-500: #22a196;
+  --color-turquoise-600: #17817a; --color-turquoise-700: #156862;
+  --color-turquoise-800: #14534f; --color-turquoise-900: #134542;
+  --color-turquoise-950: #062726;
+
+  --color-saffron-50: #fefaea;  --color-saffron-100: #fcf0c7;
+  --color-saffron-200: #fade8a; --color-saffron-300: #f7c74e;
+  --color-saffron-400: #f3ad26; --color-saffron-500: #e8900f;
+  --color-saffron-600: #c96f0b; --color-saffron-700: #a4530d;
+  --color-saffron-800: #864112; --color-saffron-900: #713712;
+  --color-saffron-950: #401b05;
+
+  --color-pomegranate-50: #fdf2f3;  --color-pomegranate-100: #fbe3e4;
+  --color-pomegranate-200: #f7c9cc; --color-pomegranate-300: #efa3aa;
+  --color-pomegranate-400: #e36a78; --color-pomegranate-500: #d14155;
+  --color-pomegranate-600: #b92843; --color-pomegranate-700: #9a1e3a;
+  --color-pomegranate-800: #801b37; --color-pomegranate-900: #6d1a34;
+  --color-pomegranate-950: #3b0919;
+
+  --color-pistachio-50: #f4f9ee;  --color-pistachio-100: #e5f2d6;
+  --color-pistachio-200: #cbe6ae; --color-pistachio-300: #a7d47c;
+  --color-pistachio-400: #85be54; --color-pistachio-500: #63a238;
+  --color-pistachio-600: #4c822b; --color-pistachio-700: #3d6625;
+  --color-pistachio-800: #345222; --color-pistachio-900: #2c4420;
+  --color-pistachio-950: #13220d;
+
+  --color-stone-warm-50: #fbf8f3;  --color-stone-warm-100: #f6f0e4;
+  --color-stone-warm-200: #ece0c6; --color-stone-warm-300: #dcc7a0;
+  --color-stone-warm-400: #c9a877; --color-stone-warm-500: #b58e58;
+  --color-stone-warm-600: #9a7445; --color-stone-warm-700: #7c5c38;
+  --color-stone-warm-800: #5c4430; --color-stone-warm-900: #3f2f22;
+  --color-stone-warm-950: #231a13;
+
+  --color-ink-50: #f5f6f8;  --color-ink-100: #e6e8ec;
+  --color-ink-200: #cdd2da; --color-ink-300: #a8b0bd;
+  --color-ink-400: #7c8798; --color-ink-500: #5b6678;
+  --color-ink-600: #48515f; --color-ink-700: #3a4049;
+  --color-ink-800: #252a31; --color-ink-900: #161a1f;
+  --color-ink-950: #0b0d10;
+
+  /* Semantic — light */
+  --color-background-default: #fbf8f3;
+  --color-background-subtle: #f6f0e4;
+  --color-background-muted: #ece0c6;
+  --color-background-inverse: #111b45;
+
+  --color-surface-default: #ffffff;
+  --color-surface-raised: #ffffff;
+  --color-surface-sunken: #f6f0e4;
+  --color-surface-overlay: rgb(0 0 0 / 0.40);
+
+  --color-foreground-default: #161a1f;
+  --color-foreground-secondary: #3a4049;
+  --color-foreground-muted: #5b6678;
+  --color-foreground-inverse: #fbf8f3;
+  --color-foreground-on-brand: #ffffff;
+
+  --color-border-default: #dcc7a0;
+  --color-border-subtle: #ece0c6;
+  --color-border-strong: #c9a877;
+  --color-border-focus: #22a196;
+
+  --color-action-primary: #17817a;
+  --color-action-primary-hover: #156862;
+  --color-action-primary-active: #14534f;
+  --color-action-primary-foreground: #ffffff;
+  --color-action-secondary: #1f3078;
+  --color-action-secondary-hover: #17245c;
+  --color-action-secondary-foreground: #ffffff;
+  --color-action-disabled: #ece0c6;
+  --color-action-disabled-foreground: #c9a877;
+
+  --color-focus-ring: #22a196;
+  --color-selection-background: #d6f7f1;
+  --color-selection-foreground: #161a1f;
+
+  --color-feedback-success-fg: #345222;
+  --color-feedback-success-bg: #f4f9ee;
+  --color-feedback-success-border: #a7d47c;
+  --color-feedback-warning-fg: #864112;
+  --color-feedback-warning-bg: #fefaea;
+  --color-feedback-warning-border: #f7c74e;
+  --color-feedback-error-fg: #801b37;
+  --color-feedback-error-bg: #fdf2f3;
+  --color-feedback-error-border: #efa3aa;
+  --color-feedback-info-fg: #17245c;
+  --color-feedback-info-bg: #eef2ff;
+  --color-feedback-info-border: #b9c6f4;
+
+  --leading-loose: 1.85;
+  --leading-relaxed: 1.65;
+
+  color-scheme: light;
+}
+
+[data-theme="dark"] {
+  --color-background-default: #0b0d10;
+  --color-background-subtle: #161a1f;
+  --color-background-muted: #252a31;
+  --color-background-inverse: #fbf8f3;
+
+  --color-surface-default: #161a1f;
+  --color-surface-raised: #252a31;
+  --color-surface-sunken: #0b0d10;
+  --color-surface-overlay: rgb(0 0 0 / 0.60);
+
+  --color-foreground-default: #fbf8f3;
+  --color-foreground-secondary: #ece0c6;
+  --color-foreground-muted: #c9a877;
+  --color-foreground-inverse: #161a1f;
+  --color-foreground-on-brand: #0b0d10;
+
+  --color-border-default: #3a4049;
+  --color-border-subtle: #252a31;
+  --color-border-strong: #48515f;
+  --color-border-focus: #43bfb4;
+
+  --color-action-primary: #22a196;
+  --color-action-primary-hover: #43bfb4;
+  --color-action-primary-active: #79dad0;
+  --color-action-primary-foreground: #0b0d10;
+
+  --color-focus-ring: #43bfb4;
+  --color-selection-background: #134542;
+  --color-selection-foreground: #fbf8f3;
+
+  --color-feedback-success-fg: #a7d47c;
+  --color-feedback-success-bg: #13220d;
+  --color-feedback-success-border: #3d6625;
+  --color-feedback-warning-fg: #f7c74e;
+  --color-feedback-warning-bg: #401b05;
+  --color-feedback-warning-border: #a4530d;
+  --color-feedback-error-fg: #efa3aa;
+  --color-feedback-error-bg: #3b0919;
+  --color-feedback-error-border: #9a1e3a;
+  --color-feedback-info-fg: #b9c6f4;
+  --color-feedback-info-bg: #0a112b;
+  --color-feedback-info-border: #1f3078;
+
+  color-scheme: dark;
+}

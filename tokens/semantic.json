@@ -1,0 +1,73 @@
+{
+  "$schema": "https://design-tokens.org/schema.json",
+  "$description": "Zariran semantic tokens (light default).",
+  "color": {
+    "semantic": {
+      "background": {
+        "default": { "$value": "{color.primitive.stoneWarm.50}", "$type": "color" },
+        "subtle": { "$value": "{color.primitive.stoneWarm.100}", "$type": "color" },
+        "muted": { "$value": "{color.primitive.stoneWarm.200}", "$type": "color" },
+        "inverse": { "$value": "{color.primitive.lapis.900}", "$type": "color" }
+      },
+      "surface": {
+        "default": { "$value": "{color.primitive.white}", "$type": "color" },
+        "raised": { "$value": "{color.primitive.white}", "$type": "color" },
+        "sunken": { "$value": "{color.primitive.stoneWarm.100}", "$type": "color" },
+        "overlay": { "$value": "rgb(0 0 0 / 0.40)", "$type": "color" }
+      },
+      "foreground": {
+        "default": { "$value": "{color.primitive.ink.900}", "$type": "color" },
+        "secondary": { "$value": "{color.primitive.ink.700}", "$type": "color" },
+        "muted": { "$value": "{color.primitive.ink.500}", "$type": "color" },
+        "inverse": { "$value": "{color.primitive.stoneWarm.50}", "$type": "color" },
+        "onBrand": { "$value": "{color.primitive.white}", "$type": "color" }
+      },
+      "border": {
+        "default": { "$value": "{color.primitive.stoneWarm.300}", "$type": "color" },
+        "subtle": { "$value": "{color.primitive.stoneWarm.200}", "$type": "color" },
+        "strong": { "$value": "{color.primitive.stoneWarm.400}", "$type": "color" },
+        "focus": { "$value": "{color.primitive.turquoise.500}", "$type": "color" }
+      },
+      "action": {
+        "primary": { "$value": "{color.primitive.turquoise.600}", "$type": "color" },
+        "primaryHover": { "$value": "{color.primitive.turquoise.700}", "$type": "color" },
+        "primaryActive": { "$value": "{color.primitive.turquoise.800}", "$type": "color" },
+        "primaryForeground": { "$value": "{color.primitive.white}", "$type": "color" },
+        "secondary": { "$value": "{color.primitive.lapis.700}", "$type": "color" },
+        "secondaryHover": { "$value": "{color.primitive.lapis.800}", "$type": "color" },
+        "secondaryForeground": { "$value": "{color.primitive.white}", "$type": "color" },
+        "disabled": { "$value": "{color.primitive.stoneWarm.200}", "$type": "color" },
+        "disabledForeground": { "$value": "{color.primitive.stoneWarm.400}", "$type": "color" }
+      },
+      "focus": {
+        "ring": { "$value": "{color.primitive.turquoise.500}", "$type": "color" }
+      },
+      "selection": {
+        "background": { "$value": "{color.primitive.turquoise.100}", "$type": "color" },
+        "foreground": { "$value": "{color.primitive.ink.900}", "$type": "color" }
+      },
+      "feedback": {
+        "success": {
+          "fg": { "$value": "{color.primitive.pistachio.800}", "$type": "color" },
+          "bg": { "$value": "{color.primitive.pistachio.50}", "$type": "color" },
+          "border": { "$value": "{color.primitive.pistachio.300}", "$type": "color" }
+        },
+        "warning": {
+          "fg": { "$value": "{color.primitive.saffron.800}", "$type": "color" },
+          "bg": { "$value": "{color.primitive.saffron.50}", "$type": "color" },
+          "border": { "$value": "{color.primitive.saffron.300}", "$type": "color" }
+        },
+        "error": {
+          "fg": { "$value": "{color.primitive.pomegranate.800}", "$type": "color" },
+          "bg": { "$value": "{color.primitive.pomegranate.50}", "$type": "color" },
+          "border": { "$value": "{color.primitive.pomegranate.300}", "$type": "color" }
+        },
+        "info": {
+          "fg": { "$value": "{color.primitive.lapis.800}", "$type": "color" },
+          "bg": { "$value": "{color.primitive.lapis.50}", "$type": "color" },
+          "border": { "$value": "{color.primitive.lapis.200}", "$type": "color" }
+        }
+      }
+    }
+  }
+}

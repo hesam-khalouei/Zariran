@@ -1,0 +1,17 @@
+{
+  "$schema": "https://design-tokens.org/schema.json",
+  "$description": "Zariran component tokens (aliases to semantic only).",
+  "component": {
+    "button": {
+      "radius": { "$value": "0.375rem", "$type": "dimension" },
+      "height": {
+        "sm": { "$value": "32px", "$type": "dimension" },
+        "md": { "$value": "40px", "$type": "dimension" },
+        "lg": { "$value": "48px", "$type": "dimension" }
+      }
+    },
+    "input": {
+      "radius": { "$value": "0.375rem", "$type": "dimension" }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "$schema": "https://design-tokens.org/schema.json",
+  "$description": "Zariran dark theme overrides.",
+  "color": {
+    "semantic": {
+      "background": {
+        "default": { "$value": "{color.primitive.ink.950}", "$type": "color" },
+        "subtle": { "$value": "{color.primitive.ink.900}", "$type": "color" },
+        "muted": { "$value": "{color.primitive.ink.800}", "$type": "color" }
+      },
+      "surface": {
+        "default": { "$value": "{color.primitive.ink.900}", "$type": "color" },
+        "raised": { "$value": "{color.primitive.ink.800}", "$type": "color" },
+        "sunken": { "$value": "{color.primitive.ink.950}", "$type": "color" }
+      },
+      "foreground": {
+        "default": { "$value": "{color.primitive.stoneWarm.50}", "$type": "color" },
+        "secondary": { "$value": "{color.primitive.stoneWarm.200}", "$type": "color" },
+        "muted": { "$value": "{color.primitive.stoneWarm.400}", "$type": "color" }
+      },
+      "border": {
+        "default": { "$value": "{color.primitive.ink.700}", "$type": "color" },
+        "subtle": { "$value": "{color.primitive.ink.800}", "$type": "color" }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://design-tokens.org/schema.json",
+  "$description": "Zariran light theme overrides.",
+  "color": {
+    "semantic": {
+      "background": {
+        "default": { "$value": "{color.primitive.stoneWarm.50}", "$type": "color" }
+      }
+    }
+  }
+}
